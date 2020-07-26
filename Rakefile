@@ -7,6 +7,8 @@ namespace :book do
         #if version_string.empty?
           ##version_string = '0'
         #end
+
+        # Add a Date-stamp to the book (PDF,HTML)
         date_string = Time.now.strftime("%Y-%m-%d")
         params = "--attribute revdate='#{date_string}'"
         #params = "--attribute revnumber='#{version_string}' --attribute revdate='#{date_string}'"
