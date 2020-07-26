@@ -3,15 +3,18 @@ namespace :book do
     task :build do
   
       begin
-        # version_string = ENV['TRAVIS_TAG'] || `git describe --tags`.chomp #
-        #if version_string.empty?
-          ##version_string = '0'
-        #end
+        # Find out the Version Number and Assign
+        version_string = `git describe --tags`
+        if version_string.empty?
+          version_string = '0'
+        end
 
-        # Add a Date-stamp to the book (PDF,HTML)
+        # Add a Version Number and Date-stamp to the book (PDF,HTML)
         date_string = Time.now.strftime("%Y-%m-%d")
-        params = "--attribute revdate='#{date_string}'"
-        #params = "--attribute revnumber='#{version_string}' --attribute revdate='#{date_string}'"
+
+        # Add them to the params label
+        params = "--attribute revnumber='#{version_string}' --attribute revdate='#{date_string}'"
+
         # puts "Generating contributors list"
         # `git shortlog -s | grep -v -E "(McQuade)" | cut -f 2- | column -c 120 > book/contributors.txt` #
   
