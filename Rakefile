@@ -22,20 +22,20 @@ namespace :book do
   
         # Run Asciidoctor to build the book
         puts "Converting to HTML..."
-        `bundle exec asciidoctor #{params} -a data-uri prokde.asc`
-        puts " -- HTML output at progit.html"
+        `bundle exec asciidoctor #{params} -a data-uri prokde.adoc`
+        puts " -- HTML output at prokde.html"
   
         puts "Converting to EPub..."
-        `bundle exec asciidoctor-epub3 #{params} prokde.asc`
-        puts " -- Epub output at progit.epub"
+        `bundle exec asciidoctor-epub3 #{params} prokde.adoc`
+        puts " -- Epub output at prokde.epub"
   
         puts "Converting to Mobi (kf8)..."
-        `bundle exec asciidoctor-epub3 #{params} -a ebook-format=kf8 prokde.asc`
-        puts " -- Mobi output at progit.mobi"
+        `bundle exec asciidoctor-epub3 #{params} -a ebook-format=kf8 prokde.adoc`
+        puts " -- Mobi output at prokde.mobi"
   
         puts "Converting to PDF... (this one takes a while)"
-        `bundle exec asciidoctor-pdf #{params} prokde.asc 2>/dev/null`
-        puts " -- PDF output at progit.pdf"
+        `bundle exec asciidoctor-pdf #{params} prokde.adoc 2>/dev/null`
+        puts " -- PDF output at prokde.pdf"
   
       end
     end
