@@ -16,3 +16,5 @@ include::book/Preface/paul.asc[]
 include::book/developers.asc[]
 
 include::ch01-getting-started.asc[]
+
+include::A-getting-help.asc[]

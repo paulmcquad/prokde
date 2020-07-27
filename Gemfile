@@ -6,8 +6,8 @@ gem 'asciidoctor', '2.0.10'
 gem 'json'
 gem 'awesome_print'
 
-gem 'asciidoctor-epub3', '~> 1.5.0.alpha.17'
-gem 'asciidoctor-pdf', '1.5.3'
+gem 'asciidoctor-epub3'
+gem 'asciidoctor-pdf'
 
 gem 'coderay'
 gem 'pygments.rb'
