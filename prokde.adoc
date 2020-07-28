@@ -22,3 +22,5 @@ include::ch02-development.asc[]
 include::ch03-debugging.asc[]
 
 include::A-getting-help.asc[]
+
+include::B-Fixing-bugs.asc[]
