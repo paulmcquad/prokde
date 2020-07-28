@@ -443,7 +443,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>Pro KDE</h1>
 <div class="details">
 <span id="author" class="author">Paul McQuade</span><br>
-<span id="revnumber">version v0.2.0-2-gb4faa56,</span>
+<span id="revnumber">version v0.2.0-3-g006f83c,</span>
 <span id="revdate">2020-07-28</span>
 </div>
 <div id="toc" class="toc">
@@ -480,7 +480,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_fork_a_project">Fork a Project</a></li>
 </ul>
 </li>
-<li><a href="#ch03-Debugging">Debugging</a>
+<li><a href="#_invent">Invent</a>
+<ul class="sectlevel2">
+<li><a href="#_plasma">Plasma</a></li>
+</ul>
+</li>
+<li><a href="#ch04-Debugging">Debugging</a>
 <ul class="sectlevel2">
 <li><a href="#_reporting_bugs">Reporting Bugs</a></li>
 <li><a href="#_bug_triaging">Bug triaging</a></li>
@@ -494,7 +499,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_kde_mailing_lists">KDE Mailing Lists</a></li>
 </ul>
 </li>
-<li><a href="#A-Fixing-Bugs">Appendix B: Fixing Bugs</a>
+<li><a href="#B-Fixing-Bugs">Appendix B: Fixing Bugs</a>
 <ul class="sectlevel2">
 <li><a href="#_kde_bugtracking_system">KDE Bugtracking System</a></li>
 <li><a href="#_kde_bugsquad_2">KDE Bugsquad</a></li>
@@ -985,7 +990,42 @@ To learn how to use Qt, we recommend the tutorials here:</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="ch03-Debugging">Debugging</h2>
+<h2 id="_invent">Invent</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_plasma">Plasma</h3>
+<div class="paragraph">
+<p>Plasma is a group on <a href="https://invent.kde.org">Invent</a> with many different projects that deal with the graphical workspaces environment or User interface(UI). It describes the group as:</p>
+</div>
+<div class="paragraph">
+<p>Desktop environment for a wide range of devices and user needs:</p>
+</div>
+<div class="sect3">
+<h4 id="_plasma_projects">Plasma Projects</h4>
+<div class="paragraph">
+<p>The top three Plasma projects are:</p>
+</div>
+<div class="paragraph">
+<p><a href="https://invent.kde.org/plasma/kwin">KWin</a> - Easy to use, but flexible, X Window Manager and Wayland Compositor</p>
+</div>
+<div class="paragraph">
+<p><a href="https://invent.kde.org/plasma/plasma-desktop">plasma-desktop</a> - Plasma for the Desktop</p>
+</div>
+<div class="paragraph">
+<p><a href="https://invent.kde.org/plasma/plasma-workspace">plasma-workspace</a> - Various components needed to run a Plasma-based environment</p>
+</div>
+<div class="paragraph">
+<p>For more Plasma Projects see:</p>
+</div>
+<div class="paragraph">
+<p><a href="https://invent.kde.org/plasma">invent.kde.org/plasma</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="ch04-Debugging">Debugging</h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_reporting_bugs">Reporting Bugs</h3>
@@ -1036,7 +1076,16 @@ To learn how to use Qt, we recommend the tutorials here:</p>
 <div class="sect3">
 <h4 id="_join_the_bugsquad">Join the Bugsquad</h4>
 <div class="paragraph">
-<p>To join the <a href="https://phabricator.kde.org/project/update/290/join/">Bugsquad</a>, become a member of our project on <a href="https://phabricator.kde.org/project/profile/290/">Phabricator</a>. We organize Bug Days, where we focus on a specific product, with the goal of reviewing all open bugs by the end of the day. These meetings occur primarily on <a href="irc://chat.freenode.net/#kde-bugs">#kde-bugs</a>.</p>
+<p>To join the <a href="https://phabricator.kde.org/project/update/290/join/">Bugsquad</a>, become a member of our project on <a href="https://phabricator.kde.org/project/profile/290/">https://phabricator.kde.org/</a>. We organize Bug Days, where we focus on a specific product, with the goal of reviewing all open bugs by the end of the day. These meetings occur primarily on <a href="irc://chat.freenode.net/#kde-bugs">#kde-bugs</a>.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_bugsquad_calendar">Bugsquad Calendar</h4>
+<div class="paragraph">
+<p>The following is a link to the Bugsquad Calendar:</p>
+</div>
+<div class="paragraph">
+<p><a href="https://phabricator.kde.org/calendar/">Bugsquad Calendar</a></p>
 </div>
 <div style="page-break-after: always;"></div>
 </div>
@@ -1152,6 +1201,14 @@ at /home/bram/KDE/kde3/kdeaddons/konq-plugins/fsview/main.cpp:55</code></pre>
 <tr>
 <td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
 <p><a href="irc://chat.freenode.net/#kde-quality">#kde-quality</a> - For KDE quality assurance</p>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Project</strong></p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="paragraph">
+<p><a href="irc://chat.freenode.net/#plasma">#plasma</a> - Plasma team</p>
 </div></div></td>
 </tr>
 <tr>
@@ -1342,11 +1399,21 @@ at /home/bram/KDE/kde3/kdeaddons/konq-plugins/fsview/main.cpp:55</code></pre>
 </ul>
 </div>
 </div>
+<div class="sect3">
+<h4 id="_project_development_lists">Project development lists</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Plasma - <a href="mailto:plasma-devel@kde.org">plasma-devel@kde.org</a></p>
+</li>
+</ul>
+</div>
+</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="A-Fixing-Bugs">Appendix B: Fixing Bugs</h2>
+<h2 id="B-Fixing-Bugs">Appendix B: Fixing Bugs</h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_kde_bugtracking_system">KDE Bugtracking System</h3>
@@ -1354,13 +1421,13 @@ at /home/bram/KDE/kde3/kdeaddons/konq-plugins/fsview/main.cpp:55</code></pre>
 <p>File a bug:</p>
 </div>
 <div class="paragraph">
-<p><a href="https://bugs.kde.org/" class="bare">https://bugs.kde.org/</a></p>
+<p><a href="https://bugs.kde.org/">https://bugs.kde.org/</a></p>
 </div>
 <div class="paragraph">
 <p>Search for bugs at:</p>
 </div>
 <div class="paragraph">
-<p><a href="https://bugs.kde.org/query.cgi" class="bare">https://bugs.kde.org/query.cgi</a></p>
+<p><a href="https://bugs.kde.org/query.cgi">https://bugs.kde.org/query.cgi</a></p>
 </div>
 </div>
 <div class="sect2">
@@ -1369,13 +1436,13 @@ at /home/bram/KDE/kde3/kdeaddons/konq-plugins/fsview/main.cpp:55</code></pre>
 <p>Search KDE Bugsquad for Comfirmed bugs:</p>
 </div>
 <div class="paragraph">
-<p><a href="https://phabricator.kde.org/" class="bare">https://phabricator.kde.org/</a></p>
+<p><a href="https://phabricator.kde.org/">https://phabricator.kde.org/</a></p>
 </div>
 <div class="paragraph">
 <p>Become a member of the KDE Bugsquad at:</p>
 </div>
 <div class="paragraph">
-<p><a href="https://phabricator.kde.org/project/update/290/join/" class="bare">https://phabricator.kde.org/project/update/290/join/</a></p>
+<p><a href="https://phabricator.kde.org/project/update/290/join/">https://phabricator.kde.org/project/update/290/join/</a></p>
 </div>
 </div>
 </div>
@@ -1383,8 +1450,8 @@ at /home/bram/KDE/kde3/kdeaddons/konq-plugins/fsview/main.cpp:55</code></pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version v0.2.0-2-gb4faa56<br>
-Last updated 2020-07-28 15:17:59 +0100
+Version v0.2.0-3-g006f83c<br>
+Last updated 2020-07-28 17:18:11 +0100
 </div>
 </div>
 </body>

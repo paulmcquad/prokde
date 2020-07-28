@@ -19,7 +19,9 @@ include::ch01-getting-started.asc[]
 
 include::ch02-development.asc[]
 
-include::ch03-debugging.asc[]
+include::ch03-invent.asc[]
+
+include::ch04-debugging.asc[]
 
 include::A-getting-help.asc[]
 
