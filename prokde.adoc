@@ -17,12 +17,11 @@ include::book/developers.asc[]
 
 include::ch01-getting-started.asc[]
 
-include::ch02-development.asc[]
+include::ch02-planning.asc[]
 
-include::ch03-invent.asc[]
+include::ch05-Implementation.asc[]
 
-include::ch04-debugging.asc[]
-
+include::ch06-Testing_Integration.asc[]
 include::A-getting-help.asc[]
 
 include::B-Fixing-bugs.asc[]
