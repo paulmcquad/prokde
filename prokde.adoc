@@ -32,3 +32,5 @@ include::ch07-maintenance.asc[]
 include::A-getting-help.asc[]
 
 include::B-Fixing-bugs.asc[]
+
+ifndef::ebook-format[include::index.asc[]]
