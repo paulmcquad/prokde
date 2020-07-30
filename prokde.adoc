@@ -19,9 +19,16 @@ include::ch01-getting-started.asc[]
 
 include::ch02-planning.asc[]
 
-include::ch05-Implementation.asc[]
+include::ch03-analysis.asc[]
 
-include::ch06-Testing_Integration.asc[]
+include::ch04-design.asc[]
+
+include::ch05-implementation.asc[]
+
+include::ch06-testing_integration.asc[]
+
+include::ch07-maintenance.asc[]
+
 include::A-getting-help.asc[]
 
 include::B-Fixing-bugs.asc[]
