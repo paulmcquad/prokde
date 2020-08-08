@@ -29,9 +29,9 @@ namespace :book do
         `bundle exec asciidoctor-epub3 #{params} prokde.adoc`
         puts " -- Epub output at prokde.epub"
   
-        puts "Converting to Mobi (kf8)..."
-        `bundle exec asciidoctor-epub3 #{params} -a ebook-format=kf8 prokde.adoc`
-        puts " -- Mobi output at prokde.mobi"
+       # puts "Converting to Mobi (kf8)..."
+       # `bundle exec asciidoctor-epub3 #{params} -a ebook-format=kf8 prokde.adoc`
+       # puts " -- Mobi output at prokde.mobi"
   
         puts "Converting to PDF... (this one takes a while)"
         `bundle exec asciidoctor-pdf #{params} prokde.adoc 2>/dev/null`
